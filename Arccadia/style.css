@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Permanent Marker', cursive;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -59,7 +62,14 @@ p{
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #000000;
 }
 .header{
     background: radial-gradient(#fff,#2b4ab4)
+}
+.header row{
+    margin-top: 70px;
 }
